@@ -5,6 +5,7 @@
 
 const language1 = ["HTML", "CSS", "JavaScript", "PHP", true, 50];
 const language2 = new Array("HTML", "CSS", "JavaScript", "PHP", true, 50);
+// console.log(language1[3], 8);
 
 // Delete and Remove Last Item
 language1.pop();
@@ -22,7 +23,7 @@ language1.shift();
 
 // console.log(language1);
 // console.log(language1[3]);
-// console.log(language1.at(3));
+// console.log(language1.at(3), 26);
 // console.log(language1.toString());
 // console.log(language1.join('"'));
 // console.log(language1.join("$"));
@@ -61,8 +62,9 @@ const num = new Array(20, 21);
 const x = [1, 2, 3, 4];
 const y = [5, 6, 7, 8];
 const p = [10, 12, 14];
-const z = x.concat(y, p);
-// console.log(z);
+const q = [100, 120, 140];
+const z = x.concat(y, p, q);
+// console.log(z, 66);
 
 const a = [
   [1, 2, 3, [10, 11, 12]],
@@ -73,8 +75,8 @@ const a = [
 // console.log(a.flat());
 
 const pL = ["HTML", "CSS", "JavaScript", "Python", "PHP"];
-pL.splice(2, 0, "info", "info2");
+// pL.splice(2, 0, "info", "info2");
 // pL.splice(0, 1);
-pL.splice(0, 4);
+// pL.splice(0, 4);
 
 console.log(pL);
